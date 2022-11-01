@@ -5,6 +5,9 @@
     text-decoration: none;
     box-sizing: border-box;
     font-family: sans-serif;
+    
+}
+body{
     background-color: #F5F5F5;
 }
 header{
@@ -90,9 +93,12 @@ nav ul li a:hover::after{
     width:2px;
 } */
 .fa-toggle-off-icon{
-    font-size:20px;
+    font-size:40px;
     margin:64px 100px 0 0;
     
+}
+.fa-toggle-off-icon:hover{
+    cursor:pointer;
 }
 
 .order-now{
