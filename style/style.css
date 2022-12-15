@@ -7,8 +7,17 @@
     font-family: sans-serif;
     
 }
+:root{
+    --primary-color:#F5F5F5;
+    --secondary-color:#000000;
+    
+}
+.dark-theme{
+    --primary-color:#000000;
+    --secondary-color:#F5F5F5;
+}
 body{
-    background-color: #F5F5F5;
+    background-color: var(--primary-color);
 }
 header{
     display: flex;
@@ -22,7 +31,7 @@ header .logo{
     font-size:20px;
 }
 header .logo a{
-    color:#000000;
+    color:var(--secondary-color);
 
 }
 nav{
@@ -44,13 +53,13 @@ nav ul li:last-child{
     margin-right: 0;
 }
 nav ul li a{
-    color:#000000;
+    color:var(--secondary-color);
     position: relative;
     padding-bottom: 8px;
 }
 nav ul li a::before{
     content: "";
-    border: 2px solid #F5F5F5;
+    border: 2px solid var(--primary-color);
     position: absolute;
     bottom: 0;
     left: 50%;
@@ -58,7 +67,7 @@ nav ul li a::before{
 }
 nav ul li a:hover:before{
     content: "";
-    border: 2px solid #000000;
+    border: 2px solid var(--secondary-color);
     position: absolute;
     bottom: 0;
     left: 50%;
@@ -95,7 +104,7 @@ nav ul li a:hover::after{
 .fa-toggle-off-icon{
     font-size:40px;
     margin:64px 100px 0 0;
-    
+    color: var(--secondary-color);
 }
 .fa-toggle-off-icon:hover{
     cursor:pointer;
@@ -125,6 +134,7 @@ nav ul li a:hover::after{
 section .section-satauri{
     font-size: 60px;
     font-weight: bold;
+    color: var(--secondary-color);
 }
 section .section-text{
     width: 394px;
@@ -166,6 +176,7 @@ main .aboutus-img1 img{
 }
 main section .aboutus-satauri1{
     font-size: 40px;
+    color:var(--secondary-color);
 }
 main section .aboutus-text1{
     font-size:20px;
@@ -175,6 +186,7 @@ main section .aboutus-text1{
 main section .aboutus-satauri2{
     font-size: 40px;
     margin-top:200px;
+    color:var(--secondary-color);
 }
 main section .aboutus-text2{
     font-size:20px;
@@ -202,6 +214,7 @@ main section .aboutus-text2{
     font-size: 40px;
     margin-bottom: 88px;
     text-align: center;
+    color:var(--secondary-color);
 }
 .article1 section{
     width:380px;
@@ -217,7 +230,7 @@ main section .aboutus-text2{
     /* text-align: center; */
     margin-top: 36px;
     margin-bottom: 34px;
-    color:#000000;
+    color:var(--secondary-color);
 }
 
 .article1-text1{
@@ -260,6 +273,7 @@ main section .aboutus-text2{
 }
 .second-section h2{
     font-size: 40px;
+    color:var(--secondary-color);
 }
 .second-section .para{
     font-size:15px;
@@ -323,7 +337,8 @@ main section .aboutus-text2{
 }
 .contact-h2{
     font-size: 40px;
-    width:354px
+    width:354px;
+    color:var(--secondary-color);
 }
 .contact-p{
     font-size:20px;
@@ -340,7 +355,7 @@ main section .aboutus-text2{
     color: #777776;
 }
 .contact-div p b{
-    color: #000000;
+    color: var(--secondary-color);
 }
 .main-contact-p{
     font-size: 20px;
