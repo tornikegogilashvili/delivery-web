@@ -18,6 +18,7 @@
 }
 body{
     background-color: var(--primary-color);
+    width: 100%;
 }
 header{
     display: flex;
@@ -26,24 +27,24 @@ header{
     position: relative;
 }
 header .logo{
-    margin:60px 0 0 80px;
+    margin:9.13vh 0 0 5.85vw;
     font-weight:600;
-    font-size:20px;
+    font-size:1.25vw;
 }
 header .logo a{
     color:var(--secondary-color);
 
 }
 nav{
-    margin:60px 84px 0 228px;
+    margin:9.13vh 6.14vw 0 16.7vw;
 }
 nav ul{
     display: flex;
     
 }
 nav ul li{
-    margin-right:70px;
-    font-size:20px;
+    margin-right:5.1vw;
+    font-size:1.25vw;
     font-weight: 600;
     
 }
@@ -73,37 +74,10 @@ nav ul li a:hover:before{
     left: 50%;
     border-radius: 50%;
 }
-/* nav ul li a::before{
-    content: "";
-    width:0;
-    height:4px;
-    position:absolute;
-    bottom:0;
-    left:50%;
-    background-color:#000000;
-    border-radius: 50px 50px 50px 50px;
-}
-nav ul li a::after{
-    content: "";
-    width:0;
-    height:4px;
-    position:absolute;
-    bottom:0;
-    right:50%;
-    background-color:#000000;
-    border-radius: 50px 0 50px 50px;
-}
-nav ul li a:hover::before{
-    width:2px;
-    
-}
-nav ul li a:hover::after{
-    
-    width:2px;
-} */
+
 .fa-toggle-off-icon{
-    font-size:40px;
-    margin:64px 100px 0 0;
+    font-size:2.5vw;
+    margin:9.74vh 7.3vw 0 0;
     color: var(--secondary-color);
 }
 .fa-toggle-off-icon:hover{
@@ -111,11 +85,11 @@ nav ul li a:hover::after{
 }
 
 .order-now{
-    font-size: 20px;
+    font-size: 1.25vw;
     font-weight: 600;
-    margin-top:60px;
+    margin-top:9.13vh;
     background-color: #FDC72D;
-    padding: 16px 34px;
+    padding: 2.43vh 2.48vw;
     border-radius: 50px;
 }
 .order-now{
@@ -127,28 +101,28 @@ nav ul li a:hover::after{
     
 }
 .index-main section{
-    width: 466px;
-    margin:190px 0 0 80px;
+    width: 34.11 vw;
+    margin:28.9vh 0 0 5.85vw;
     
 }
 section .section-satauri{
-    font-size: 60px;
+    font-size: 3.75vw;
     font-weight: bold;
     color: var(--secondary-color);
 }
 section .section-text{
-    width: 394px;
-    font-size: 20px;
+    width: 28.84vw;
+    font-size: 1.25vw;
     color:#777776;
-    margin-top: 36px;
-    margin-bottom: 52px;
+    margin-top: 5.47vh;
+    margin-bottom: 7.91vh;
 }
 section .section-start{
-    font-size: 20px;
+    font-size: 1.25vw;
     font-weight: 600;
-    padding:16px 32px;
+    padding:2.43vh 2.34vw;
     background-color: #FDC72D;
-    width:180px;
+    width:13.2vw;
     border-radius: 50px;
     
 }
@@ -156,54 +130,54 @@ section .section-start{
     cursor: pointer;
 }
 div img{
-    width:770px;
-    height:620px;
+    width:56.36vw;
+    height:94.4vh;
 }
 
 /* --------aboutuus page----------- */
 main .aboutus-img1 img{
-    width:670px;
-    height: 500px;
-    margin-left:50px;
+    width:49vw;
+    height: 76.1vh;
+    margin-left:3.66vw;
 }
 .aboutus-main{
     display:flex;
     flex-wrap: wrap;
 }
 .aboutus-main section{
-    width:510px;
-    margin: 190px 0 0 80px;
+    width:37.33vw;
+    margin: 28.9vh 0 0 5.85vw;
 }
 main section .aboutus-satauri1{
-    font-size: 40px;
+    font-size: 2.5vw;
     color:var(--secondary-color);
 }
 main section .aboutus-text1{
-    font-size:20px;
+    font-size:1.25vw;
     color:#777776;
-    margin-top: 30px;
+    margin-top: 2.19vh;
 }
 main section .aboutus-satauri2{
-    font-size: 40px;
-    margin-top:200px;
+    font-size: 2.5vw;
+    margin-top:14.64vh;
     color:var(--secondary-color);
 }
 main section .aboutus-text2{
-    font-size:20px;
+    font-size:1.25vw;
     color:#777776;
-    margin-top: 30px;
+    margin-top: 2.19vh;
 }
 .aboutus-img2 img{
-    width:670px;
-    height:500px;
-    margin-top:200px;
-    margin-left:50px;
+    width:49.04vw;
+    height:76.1vh;
+    margin-top:30.44vh;
+    margin-left:3.66vw;
 }
 
 /* ---------services----------- */
 .services-section1{
-    width:380px;
-    margin:96px auto;
+    width:27.81vw;
+    margin:7.02vh auto;
     margin-bottom:0;
 }
 .article1{
@@ -211,42 +185,42 @@ main section .aboutus-text2{
     justify-content: space-around;
 }
 .services-section1 h2{
-    font-size: 40px;
-    margin-bottom: 88px;
+    font-size: 2.5vw;
+    margin-bottom: 13.4vh;
     text-align: center;
     color:var(--secondary-color);
 }
 .article1 section{
-    width:380px;
+    width:27.81vw;
     /* border: 1px solid #263238; */
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom:10px;
+    margin-bottom:1.55vh;
     
     
 }
 .article1 h3{
     /* text-align: center; */
-    margin-top: 36px;
-    margin-bottom: 34px;
+    margin-top: 5.47vh;
+    margin-bottom: 5.17vh;
     color:var(--secondary-color);
 }
 
 .article1-text1{
-    width:230px;
-    font-size: 15px;
+    width:16.8vw;
+    font-size: 0.94vw;
     color: #777776;
-    margin-top:30px;
-    margin-bottom: 26px;
+    margin-top:4.5vh;
+    margin-bottom: 4vh;
 }
 .article1-text2{
-    font-size: 15px;
+    font-size: 0.94vw;
     font-weight: 600;
-    margin-bottom:36px;
+    margin-bottom:5.8vh;
 }
 .article1 section:hover{
-    width:380px;
+    width:27.8vw;
     /* border: 1px solid #263238; */
     display: flex;
     flex-direction: column;
@@ -255,31 +229,31 @@ main section .aboutus-text2{
     box-shadow: 0 0 5px;
 }
 .secimg1{
-    width:80px;
-    height: 106px;
+    width:5.85vw;
+    height: 16.1vh;
     
 }
 .secimg2{
-    width:140px;
-    height: 136px;
+    width:10.24vw;
+    height: 20.7vh;
     
 }
 .second img{
-    width:544px;
-    height:500px;
+    width:76.1vw;
+    height:39.8vh;
 }
 .second-section{
-    width:510px;
+    width:37.33vw;
 }
 .second-section h2{
-    font-size: 40px;
+    font-size: 2.5vw;
     color:var(--secondary-color);
 }
 .second-section .para{
-    font-size:15px;
+    font-size:0.94vw;
     color: #777776;
-    margin-top:28px;
-    margin-bottom:64px;
+    margin-top:4.26vh;
+    margin-bottom:9.74vh;
      
      
 }
@@ -294,20 +268,20 @@ main section .aboutus-text2{
     
 }
 .p-1{
-    font-size: 20px;
+    font-size: 1.25vw;
     font-weight: 600;
-    padding:15px 30px;
+    padding:2.28vh 2.2vw;
     background-color:#FDC72D ;
     border-radius: 30px;
-    margin-right: 40px;
+    margin-right: 2.9vw;
 }
 .p-1:hover{
     cursor: pointer;
 }
 .p-2{
-    font-size: 20px;
+    font-size: 1.25vw;
     font-weight: 600;
-    padding:15px 30px;
+    padding:2.28vh 2.2vw;
     background-color:#FDC72D ;
     border-radius: 30px;
 }
@@ -315,13 +289,13 @@ main section .aboutus-text2{
     cursor: pointer;
 }
 .p-1 img{
-    width:20px;
-    height:24px;
+    width:1.25vw;
+    height:3.65vh;
     background-color: #FDC72D;
 }
 .p-2 img{
-    width:20px;
-    height:24px;
+    width:1.25vw;
+    height:3.65vh;
     background-color: #FDC72D;
 }
 
@@ -332,37 +306,37 @@ main section .aboutus-text2{
     justify-content: space-around;
 }
 .contact-section{
-    width:506px;
-    margin:140px 0 0 0;
+    width:37.04vw;
+    margin:21.3vh 0 0 0;
 }
 .contact-h2{
-    font-size: 40px;
-    width:354px;
+    font-size: 2.5vw;
+    width:25.9vw;
     color:var(--secondary-color);
 }
 .contact-p{
-    font-size:20px;
+    font-size:1.25vw;
     color: #777776;
-    width: 506px;
+    width: 37.05vw;
     font-weight: 600;
 }
 .contact-div{
-    width:280px;
-    margin-top:140px;
+    width:20.5vw;
+    margin-top:21.3vh;
 }
 .contact-div p{
-    font-size: 20px;
+    font-size: 1.25vw;
     color: #777776;
 }
 .contact-div p b{
     color: var(--secondary-color);
 }
 .main-contact-p{
-    font-size: 20px;
+    font-size: 1.25vw;
     font-weight: 600;
-    margin-top:140px;
+    margin-top:31.3vh;
     background-color: #FDC72D;
-    padding:15px 30px;
+    padding:2.3vh 2.2vw;
     border-radius: 30px;
     cursor: pointer;
 }
@@ -370,9 +344,9 @@ main section .aboutus-text2{
     
     width: 100%;
     height: auto;
-    margin-top:78px;
+    margin-top:11.88vh;
     background-color: #FEE395;
-    padding: 92px;
+    padding: 14vh 6.74vw;
 }
 .footer-div{
     display:flex;
@@ -383,13 +357,13 @@ main section .aboutus-text2{
     background-color: #FEE395;
 }
 .footer-div-section h3{
-    font-size:20px;
+    font-size:1.25vw;
     font-weight: 600;
     background-color: #FEE395;
-    padding-bottom: 20px;
+    padding-bottom: 3.04vh;
 }
 .footer-div-section p{
-    font-size:15px;
+    font-size:0.94vw;
     font-weight: 600;
     color: #777776;
     background-color: #FEE395;
@@ -398,14 +372,14 @@ main section .aboutus-text2{
 .social{
     display: flex;
     justify-content: space-between;
-    width:180px;
+    width:13.17vw;
     background-color: #FEE395;
 }
 .fb{
     background-image: url(../images/facebook.png);
     background-size: 100%;
-    width:30px;
-    height:30px;
+    width:2.2vw;
+    height:4.56vh;
     background-color: #FEE395;
     background-repeat: no-repeat;
 
@@ -413,23 +387,23 @@ main section .aboutus-text2{
 .twi{
     background-image: url(../images/Vector\ \(1\).png);
     background-size: 100%;
-    width:30px;
-    height:30px;
+    width:2.2vw;
+    height:4.56vh;
     background-color: #FEE395;
     background-repeat: no-repeat;
 }
 .ins{
     background-image: url(../images/Vector2.png);
     background-size: 100%;
-    width:30px;
-    height:30px;
+    width:2.2vw;
+    height:4.56vh;
     background-color: #FEE395;
     background-repeat: no-repeat;
 }
 .last-p{
-    font-size: 15px;
+    font-size: 0.94vw;
     color:#777776;
-    margin-top:100px;
+    margin-top:15.22vh;
     background-color: #FEE395;
     text-align: center;
 }
