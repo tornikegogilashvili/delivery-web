@@ -50,8 +50,8 @@ nav ul li{
 }
 
 nav ul li:last-child{
-    padding-right:0;
-    margin-right: 0;
+    /* padding-right:0;
+    margin-right: 0; */
 }
 nav ul li a{
     color:var(--secondary-color);
@@ -77,7 +77,7 @@ nav ul li a:hover:before{
 
 .fa-toggle-off-icon{
     font-size:2.5vw;
-    margin:9.74vh 7.3vw 0 0;
+    /* margin:9.74vh 7.3vw 0 0; */
     color: var(--secondary-color);
 }
 .fa-toggle-off-icon:hover{
@@ -408,3 +408,103 @@ main section .aboutus-text2{
     text-align: center;
 }
 
+/* -------------------------------------
+-------iphone 12 pro resolution------
+------------------------------------- */
+@media screen and (max-width:390px){
+    header{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        /* background-color: #cf2e2e; */
+        position: relative;
+    }
+    header .logo{
+        margin:unset;
+        margin: 4vh;
+        font-weight:600;
+        font-size:5vw;
+    }
+    nav{
+        margin:unset;
+        display: flex;
+        justify-content: center;
+    
+    }
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        
+    }
+    nav ul li{
+        font-size:4vw;
+        font-weight: 600;
+        padding: 2vh 5vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin:unset;
+    }
+    .fa-toggle-off-icon{
+        font-size:7vw;
+        width:100%;
+    }
+    .fa-toggle-off{
+        display: flex;
+        justify-content: center;
+    }
+
+    .order-now{
+        font-size: 4vw;
+        font-weight: 600;
+        margin:unset;
+        background-color: #FDC72D;
+        padding: 2.43vh 2.48vw;
+        border-radius: 50px;
+        margin:4vh auto 0;
+    }
+
+    /* ------index main------ */
+    .index-main{
+        display:flex;
+        flex-direction: column;
+    }
+    .index-main section{
+        width: 34.11 vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin:unset;
+        margin-top: 5vh;
+    }
+    section .section-satauri{
+        font-size: 3.75vw;
+        font-weight: bold;
+        color: var(--secondary-color);
+    }
+    section .section-text{
+        width: 28.84vw;
+        font-size: 4vw;
+        color:#777776;
+        margin-top: 5.47vh;
+        margin-bottom: 7.91vh;
+        text-align: center;
+    }
+    section .section-start{
+        font-size: 5vw;
+        font-weight: 600;
+        padding:2.43vh 2.34vw;
+        background-color: #FDC72D;
+        width: unset;
+        border-radius: 50px;
+        
+    }
+    section .section-start{
+        cursor: pointer;
+    }
+    div img{
+        width:unset;
+        height:44.4vh;
+    }
+}
