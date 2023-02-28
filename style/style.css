@@ -77,7 +77,7 @@ nav ul li a:hover:before{
 
 .fa-toggle-off-icon{
     font-size:2.5vw;
-    /* margin:9.74vh 7.3vw 0 0; */
+    margin:9.74vh 7.3vw 0 0;
     color: var(--secondary-color);
 }
 .fa-toggle-off-icon:hover{
@@ -449,6 +449,7 @@ main section .aboutus-text2{
     .fa-toggle-off-icon{
         font-size:7vw;
         width:100%;
+        margin: unset;
     }
     .fa-toggle-off{
         display: flex;
@@ -465,46 +466,43 @@ main section .aboutus-text2{
         margin:4vh auto 0;
     }
 
-    /* ------index main------ */
-    .index-main{
+    /* ------aboutus main------ */
+    main .aboutus-img1 img{
+        width:49vw;
+        height: 76.1vh;
+        margin-left:3.66vw;
+    }
+    .aboutus-main{
         display:flex;
-        flex-direction: column;
+        flex-wrap: wrap;
     }
-    .index-main section{
-        width: 34.11 vw;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin:unset;
-        margin-top: 5vh;
+    .aboutus-main section{
+        width:37.33vw;
+        margin: 28.9vh 0 0 5.85vw;
     }
-    section .section-satauri{
-        font-size: 3.75vw;
-        font-weight: bold;
-        color: var(--secondary-color);
+    main section .aboutus-satauri1{
+        font-size: 2.5vw;
+        color:var(--secondary-color);
     }
-    section .section-text{
-        width: 28.84vw;
-        font-size: 4vw;
+    main section .aboutus-text1{
+        font-size:1.25vw;
         color:#777776;
-        margin-top: 5.47vh;
-        margin-bottom: 7.91vh;
-        text-align: center;
+        margin-top: 2.19vh;
     }
-    section .section-start{
-        font-size: 5vw;
-        font-weight: 600;
-        padding:2.43vh 2.34vw;
-        background-color: #FDC72D;
-        width: unset;
-        border-radius: 50px;
-        
+    main section .aboutus-satauri2{
+        font-size: 2.5vw;
+        margin-top:14.64vh;
+        color:var(--secondary-color);
     }
-    section .section-start{
-        cursor: pointer;
+    main section .aboutus-text2{
+        font-size:1.25vw;
+        color:#777776;
+        margin-top: 2.19vh;
     }
-    div img{
-        width:unset;
-        height:44.4vh;
+    .aboutus-img2 img{
+        width:49.04vw;
+        height:76.1vh;
+        margin-top:30.44vh;
+        margin-left:3.66vw;
     }
 }
