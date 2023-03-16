@@ -411,7 +411,7 @@ main section .aboutus-text2{
 /* -------------------------------------
 -------iphone 12 pro resolution------
 ------------------------------------- */
-@media screen and (max-width:390px){
+@media screen and (max-width:400px){
     header{
         display: flex;
         flex-direction: column;
@@ -501,42 +501,193 @@ main section .aboutus-text2{
     }
 
     /* ------aboutus main------ */
-    main .aboutus-img1 img{
-        width:49vw;
-        height: 76.1vh;
-        margin-left:3.66vw;
-    }
-    .aboutus-main{
-        display:flex;
-        flex-wrap: wrap;
-    }
+    
+    
     .aboutus-main section{
-        width:37.33vw;
-        margin: 28.9vh 0 0 5.85vw;
+        width:100%;
+        text-align: center;
+        margin:unset;
     }
     main section .aboutus-satauri1{
-        font-size: 2.5vw;
+        font-size: 4.5vw;
+        margin-top: 5vh;
         color:var(--secondary-color);
     }
     main section .aboutus-text1{
-        font-size:1.25vw;
+        font-size:2.25vw;
         color:#777776;
         margin-top: 2.19vh;
     }
     main section .aboutus-satauri2{
-        font-size: 2.5vw;
-        margin-top:14.64vh;
+        font-size: 4.5vw;
+        margin-top:5vh;
         color:var(--secondary-color);
     }
     main section .aboutus-text2{
-        font-size:1.25vw;
+        font-size:2.25vw;
         color:#777776;
         margin-top: 2.19vh;
     }
-    .aboutus-img2 img{
-        width:49.04vw;
-        height:76.1vh;
-        margin-top:30.44vh;
-        margin-left:3.66vw;
+    .aboutus-main {
+        display: flex;
+        flex-direction: column-reverse;
     }
+    .aboutus-img2{
+        text-align: center;
+        
+    }
+    .aboutus-img2 img {
+        width: 80%;
+        height: 76.1vh;
+        margin: unset;
+        margin: 20px auto;
+    }
+    .aboutus-img1{
+        text-align: center;
+    }
+    .aboutus-img1 img {
+        width: 80%;
+        height: 60.1vh;
+        margin: unset;
+        margin: 20px auto;
+    }
+    /* -------services.html-------- */
+    .services-section1 {
+        width: 100%;
+        margin: 7.02vh auto;
+        margin-bottom: 0;
+    }
+    .services-section1 h2 {
+        font-size: 4.5vw;
+        margin-bottom: 3.4vh;
+        width: 100%;
+        text-align: center;
+        color: var(--secondary-color);
+    }
+    .article1 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .article1 section {
+        width: unset;
+    }
+    .article1-text1 {
+        width: unset;
+        font-size: 2.94vw;
+        color: #777776;
+        margin-top: 4.5vh;
+        margin-bottom: 4vh;
+    }
+    .article1-text2 {
+        font-size: 1.94vw;
+    }
+    .secimg1 {
+        width: unset;
+        height: 16.1vh;
+    }
+    .secimg2 {
+        width: unset;
+        height: 20.7vh;
+    }
+    .second-section {
+        width: 100%;
+        text-align: center;
+    }
+    .first {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 40px;
+    }
+    .second-section h2 {
+        font-size: 4.5vw;
+        color: var(--secondary-color);
+        margin-top: 20px;
+    }
+    .second-section .para {
+        font-size: 2.94vw;
+        color: #777776;
+        margin-top: 4.26vh;
+        margin-bottom: 9.74vh;
+    }
+    .p-div {
+        justify-content: center;
+    }
+    .p-1 {
+        font-size: 3.25vw;
+        font-weight: 600;
+        padding: 2.28vh 2.2vw;
+        background-color: #FDC72D;
+        border-radius: 30px;
+        margin-right: 2.9vw;
+        display: flex;
+        align-items: center;
+    }
+    .p-1 img {
+        width: 3.25vw;
+        height: 3.65vh;
+        background-color: #FDC72D;
+    }
+    .p-2 {
+        font-size: 3.25vw;
+        font-weight: 600;
+        padding: 2.28vh 2.2vw;
+        background-color: #FDC72D;
+        border-radius: 30px;
+        margin-right: 2.9vw;
+        display: flex;
+        align-items: center;
+    }
+    .p-2 img {
+        width: 3.25vw;
+        height: 3.65vh;
+        background-color: #FDC72D;
+    }
+    /* -----contact.html------- */
+    .main-contact {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .contact-section {
+        width: 100%;
+        text-align: center;
+        margin: 11.3vh auto 0 ;
+    }
+    .contact-h2 {
+        font-size: 4.5vw;
+        width: unset;
+        color: var(--secondary-color);
+    }
+    .contact-p {
+        font-size: 3.25vw;
+        color: #777776;
+        width: unset;
+        font-weight: 600;
+    }
+    .contact-div {
+        width: unset;
+        margin-top: 11.3vh;
+        
+    }
+    .contact-div p {
+        font-size: 4.5vw;
+        color: #777776;
+    }
+    .main-contact-p {
+        font-size: 3.25vw;
+        font-weight: 600;
+        margin-top: 11.3vh;
+        background-color: #FDC72D;
+        padding: 2.3vh 2.2vw;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+
+
 }
