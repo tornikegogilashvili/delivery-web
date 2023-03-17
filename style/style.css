@@ -688,6 +688,48 @@ main section .aboutus-text2{
         border-radius: 30px;
         cursor: pointer;
     }
+    .footer-div {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-around;
+        background-color: #FEE395;
+    }
+    .footer-div-section h3 {
+        font-size: 4.25vw;
+        font-weight: 600;
+        background-color: #FEE395;
+        padding-bottom: 3.04vh;
+    }
+    .footer-div-section p {
+        font-size: 2.94vw;
+        font-weight: 600;
+        color: #777776;
+        background-color: #FEE395;
+        padding-bottom: 8px;
+    }
+    .social {
+        display: flex;
+        margin: 20px auto;
+        justify-content: space-between;
+        width: 13.17vw;
+        background-color: #FEE395;
+    }
+    .fb {
+    width: 5.2vw;
+    height: 8.56vh;
+}
+.twi {
+    width: 5.2vw;
+    height: 8.56vh;
+}
+.ins {
+    width: 5.2vw;
+    height: 8.56vh;
+}
+.last-p {
+    font-size: 4.94vw;
+}
 
 
 }
